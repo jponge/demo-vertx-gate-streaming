@@ -11,7 +11,7 @@ Events are streamed to Kafka, and 2 verticles observe the events:
 
 Start Kafka and ZooKeeper:
 
-    $ docke=compose up
+    $ docker-compose up
 
 Then start the application:
 
