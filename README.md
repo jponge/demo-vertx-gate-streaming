@@ -1,5 +1,9 @@
 # Vert.x and Kafka gate activations demo
 
+![Screenshot](screenshot.png)
+
+## Scenario
+
 Each gate simulates people passing by.
 
 Events are streamed to Kafka, and 2 verticles observe the events:
