@@ -37,7 +37,7 @@ public class EventProducer extends AbstractVerticle {
           .create("gate.activation", key, value);
 
         // Send it!
-        producer.write(record/*, ar -> System.out.println("✨")*/);
+        producer.write(record);
 
       }
     });
