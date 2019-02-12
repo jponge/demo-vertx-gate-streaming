@@ -21,5 +21,5 @@ Then start the application:
 
     $ ./gradlew vertxRun
 
-The open [http://localhost:8080/](http://localhost:8080/).
+Then open [http://localhost:8080/](http://localhost:8080/).
 
